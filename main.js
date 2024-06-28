@@ -59,6 +59,7 @@ function next() {
   },1500)
   
   setTimeout(() => {
+    navigator.vibrate(80);
     buttons.forEach((btn) => {
       btn.disabled = false;
     })
@@ -116,6 +117,7 @@ function previous() {
   },1500)
   
   setTimeout(() => {
+    navigator.vibrate(80);
     buttons.forEach((btn) => {
       btn.disabled = false;
     })
